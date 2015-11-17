@@ -10,7 +10,7 @@ and others cool features.
 - [Variables](#variables)
 - [Commands with regex](#command-with-regex)
 - [Send Message](#send-message)
-- [TODO](#)
+- [TODO](#todo)
 
 ## Usage
 ```
