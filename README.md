@@ -5,13 +5,12 @@ that can reply to user messages, execute commands,
 and others cool features.
 
 ## Index
-- Usage
-- Simple Commands
-- Variables
-- Commands with arguments
-- Commands with regex
-- Send Message
-- TODO
+- [Usage](#usage)
+- [Simple Commands](#simple-commands)
+- [Variables](#variables)
+- [Commands with regex](#command-with-regex)
+- [Send Message](#)
+- [TODO](#)
 
 ## Usage
 ```
@@ -81,3 +80,12 @@ regular expressions, For example:
 	["/ping ([0-9]+)"]="echo Pong: @R1"
 ```
 ![screenshot](https://waf.blue/img/batbot_sc2.jpg)
+
+## Send message
+When BaTbot is running, you can send message to chat id, by use the command *.msg* directly on console.
+For example:
+```
+[chat 110440209, from  110440209] <theMiddle - Andrea Menin> hi bot :)
+.msg 110440209 hey!!!
+```
+![screenshot](https://waf.blue/img/batbot_sc3.png)
