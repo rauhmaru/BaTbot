@@ -99,6 +99,12 @@ for example: "/ping 1234". All arguments can be
 regular expressions, For example:
 ```
 	["/ping ([0-9]+)"]="echo Pong: @R1"
+
+	["/blacklist ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)"]="/sbin/iptables -A INPUT -s @R1 -j DROP"
+
+	["/whois ([a-zA-Z0-9\.\-]+)"]="/usr/bin/whois @R1"
+
+	["/host ([a-zA-Z0-9\.\-]+)"]="/usr/bin/host @R1"
 ```
 ![screenshot](https://waf.blue/img/batbot_sc2.jpg)
 
