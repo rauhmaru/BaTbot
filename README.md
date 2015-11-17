@@ -55,3 +55,29 @@ Done. Waiting for new messages...
 [chat **, from  **] <theMiddle - Andrea Menin> \/hello
 Command /hello received, running cmd: echo Hi Andrea, pleased to meet you :)
 ```
+
+### Varibales List
+```
+@USERID 	(int) ID of user who sent the triggered command
+@USERNAME 	(string) Telegram Username of user
+@FIRSTNAME	(string) The first name of user
+@LASTNAME	(string) The last name of user
+@CHATID 	(int) The chat ID where user sent a command
+@MSGID 		(int) ID of message that triggered a command
+@TEXT		(string) The full text of a received message
+@FROMID		(int) ID of user that sent a message
+
+Regex group extract
+@R1 		Content of first group (.*)
+@R2 		Content of second group (.*)
+@R3 		Content of third group (.*)
+```
+
+### Command with regex
+You can also configure a command with arguments, 
+for example: "/ping 1234". All arguments can be 
+regular expressions, For example:
+```
+	["/ping ([0-9]+)"]="echo Pong: @R1"
+```
+![screenshot](https://waf.blue/img/batbot_sc2.jpg)
