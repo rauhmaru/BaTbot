@@ -28,7 +28,7 @@ that you can configure. For Example:
 	["/hello"]="echo Hi"
 ```
 this command trigger the /hello message from a user, 
-execute the system command *echo Hi* and return the 
+execute the system command **echo Hi** and return the 
 command output to the user via message.
 
 Do you want to know your server uptime? no problem:
@@ -92,7 +92,7 @@ regular expressions, For example:
 ![screenshot](https://waf.blue/img/batbot_sc2.jpg)
 
 ## Send message
-When BaTbot is running, you can send message to chat id, by use the command *.msg* directly on console.
+When BaTbot is running, you can send message to chat id, by use the command **.msg** directly on console.
 For example:
 ```
 [chat 110440209, from  110440209] <theMiddle - Andrea Menin> hi bot :)
