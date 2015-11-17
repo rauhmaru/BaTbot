@@ -58,10 +58,6 @@ while getopts :ht:c: OPTION; do
 done
 echo "+"
 
-#curl -s "https://api.telegram.org/bot${TELEGRAMTOKEN}/getUpdates"
-#exit
-
-
 echo -e "\nInitializing BaTbot v${VERSION}"
 ABOUTME=`curl -s "https://api.telegram.org/bot${TELEGRAMTOKEN}/getMe"`
 if [[ "$ABOUTME" =~ \"ok\"\:true\, ]]; then
