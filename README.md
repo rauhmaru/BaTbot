@@ -57,7 +57,6 @@ You can use variables! for example:
 ```
 	["/hello"]="echo Hi @FIRSTNAME, pleased to meet you :)"
 ```
-![screenshot](https://waf.blue/img/batbot_sc1.jpg)
 
 BaTbot show in console, and in real time, all received messages: 
 ```
@@ -92,6 +91,7 @@ Regex group extract
 @R2 		Content of second group (.*)
 @R3 		Content of third group (.*)
 ```
+![screenshot](https://waf.blue/img/batbot_sc1.jpg)
 
 ### Command with regex
 You can also configure a command with arguments, 
