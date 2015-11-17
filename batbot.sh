@@ -44,7 +44,7 @@ while getopts :ht:c: OPTION; do
 		h)
 			echo " BaTbot: Bash Telegram Bot"
 			echo "+"
-			echo " Usage: ${0} [-t <token>]"
+			echo " Usage: ${0} [-t <token>] [-c <seconds>]"
 			exit;
 		;;
 		t)
