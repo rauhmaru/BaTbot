@@ -13,6 +13,7 @@ CHECKNEWMSG=5;
 
 # Commands
 # you have to use this exactly syntax: ["/mycommand"]='<system command>'
+# please, don't forget to remove all example commands!
 declare -A botcommands
 botcommands=(
 
@@ -20,13 +21,11 @@ botcommands=(
 
 	["/myuser"]='echo Your username is: @USERNAME'
 
-	["/ping ([0-9]+)"]='echo Pong: @R1'
+	["/ping ([a-zA-Z0-9]+)"]='echo Pong: @R1'
 
 	["/hello"]='echo Hi @FIRSTNAME, pleased to meet you :)'
 
-	["/auth ([a-zA-Z0-9\.\=]+)"]='/usr/local/bin/auth.sh @R1'
-
-	["/w"]="uptime"
+	["/uptime"]="uptime"
 
 )
 
