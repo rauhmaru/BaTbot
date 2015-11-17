@@ -41,6 +41,17 @@ Free disk space via Telegram? let's do it:
 	["/disks"]="/bin/df -h"
 ```
 
+Execute external script:
+```
+	["/auth ([a-zA-Z0-9]+)"]="/usr/local/bin/auth.sh @R1"
+```
+
+**Don't try this at home**:
+```
+	["/exec (.*)"]="exec @R1"
+```
+
+
 ## Variables
 You can use variables! for example:
 ```
