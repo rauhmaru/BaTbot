@@ -31,6 +31,16 @@ this command trigger the /hello message from a user,
 execute the system command *echo Hi* and return the 
 command output to the user via message.
 
+Do you want to know your server uptime? no problem:
+```
+	["/uptime"]="/usr/bin/uptime" 
+```
+
+Free disk space via Telegram? let's do it:
+```
+	["/disks"]="/bin/df -h"
+```
+
 ## Variables
 You can use variables! for example:
 ```
