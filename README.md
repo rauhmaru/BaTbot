@@ -4,6 +4,8 @@ batbot.sh is a simple Telegram Bot written in Bash
 that can reply to user messages, execute commands, 
 and others cool features.
 
+<img src="https://waf.blue/img/bat.gif" width="100" />
+
 ## Index
 - [Usage](#usage)
 - [Simple Commands](#simple-commands)
