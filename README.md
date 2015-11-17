@@ -35,7 +35,7 @@ command output to the user via message.
 ## Variables
 You can use variables! for example:
 ```
-	["/hello"]="echo Hi @FIRSTNAME, please to meet you :)"
+	["/hello"]="echo Hi @FIRSTNAME, pleased to meet you :)"
 ```
 ![screenshot](https://waf.blue/img/batbot_sc1.jpg)
 
@@ -53,5 +53,5 @@ Bot ID: ****
 Done. Waiting for new messages...
 
 [chat **, from  **] <theMiddle - Andrea Menin> \/hello
-Command /hello received, running cmd: echo Hi Andrea, please to meet you :)
+Command /hello received, running cmd: echo Hi Andrea, pleased to meet you :)
 ```
