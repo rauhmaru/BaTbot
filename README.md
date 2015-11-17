@@ -9,7 +9,7 @@ and others cool features.
 - [Simple Commands](#simple-commands)
 - [Variables](#variables)
 - [Commands with regex](#command-with-regex)
-- [Send Message](#)
+- [Send Message](#send-message)
 - [TODO](#)
 
 ## Usage
@@ -89,3 +89,6 @@ For example:
 .msg 110440209 hey!!!
 ```
 ![screenshot](https://waf.blue/img/batbot_sc3.png)
+
+## TODO
+- 2015-11-17 `[high  ]` Dynamic Regular Expression Group extraction
